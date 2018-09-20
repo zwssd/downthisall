@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Downthisall",
+  "version": "0.1",
+
+  "description": "此软件旨在firefox里提供多线程下载工具，以解决downthemall不能在新版本里使用的问题。",
+  "homepage_url": "https://github.com/",
+
+  "applications": {
+    "gecko": {
+      "id": "349705141@qq.com"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon32.png",
+    "default_title": "Downthisall",
+    "default_popup": "downlist/downlist.html"
+  },
+
+  "web_accessible_resources": [
+    "downlist/frog.jpg",
+    "downlist/turtle.jpg",
+    "downlist/snake.jpg"
+  ]
+
+}
