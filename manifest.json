@@ -24,7 +24,7 @@
   "browser_action": {
     "default_icon": "icons/icon32.png",
     "default_title": "Downthisall",
-    "default_popup": "downlist/downlist.html"
+    "default_popup": "action.html"
   },
 
   "web_accessible_resources": [
