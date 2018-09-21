@@ -29,7 +29,6 @@ var createActionsMenuItems = function () {
 
 
 document.addEventListener("click", (e) => {
-
     function beastNameToURL(beastName) {
         switch (beastName) {
             case "add-tasks":
@@ -46,8 +45,9 @@ document.addEventListener("click", (e) => {
     /**
      * Get the new tab,
      */
-    if (e.target.id == "button") {
-        let url = beastNameToURL(e.target.className);
+    if (e.target.classList.contains("clickable")) {
+        alert(e.target.id);
+        let url = beastNameToURL(e.target.id);
         browser.tabs.create({url: url});
     }
 });
