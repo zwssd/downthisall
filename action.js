@@ -28,15 +28,8 @@ var createActionsMenuItems = function () {
 //createActionsMenuItems();
 
 
-const hidePage = `body > :not(.beastify-image) {
-                    display: none;
-                  }`;
-
 document.addEventListener("click", (e) => {
 
-    /**
-     * Given the name of a beast, get the URL to the corresponding image.
-     */
     function beastNameToURL(beastName) {
         switch (beastName) {
             case "add-tasks":
@@ -50,10 +43,8 @@ document.addEventListener("click", (e) => {
         }
     }
 
-
     /**
-     * Get the active tab,
-     * then call "add-tasks" or "welcome-donations" or "management-panel" or "help-update-log" as appropriate.
+     * Get the new tab,
      */
     if (e.target.id == "button") {
         let url = beastNameToURL(e.target.className);
