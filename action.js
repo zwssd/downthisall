@@ -32,7 +32,7 @@ document.addEventListener("click", (e) => {
     function beastNameToURL(beastName) {
         switch (beastName) {
             case "add-tasks":
-                return browser.extension.getURL("images/info.png");
+                return browser.extension.getURL("popup/downloadlists.html");
             case "welcome-donations":
                 return browser.extension.getURL("images/info.png");
             case "management-panel":
@@ -45,8 +45,7 @@ document.addEventListener("click", (e) => {
     /**
      * Get the new tab,
      */
-    if (e.target.classList.contains("clickable")) {
-        alert(e.target.id);
+    if (e.target.classList.contains("button")) {
         let url = beastNameToURL(e.target.id);
         browser.tabs.create({url: url});
     }

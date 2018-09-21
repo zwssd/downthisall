@@ -19,7 +19,8 @@
 
   "permissions": [
     "<all_urls>",
-    "tabs"
+    "tabs",
+    "downloads"
   ],
 
   "browser_action": {
@@ -32,6 +33,8 @@
     "downlist/frog.jpg",
     "downlist/turtle.jpg",
     "downlist/snake.jpg"
-  ]
+  ],
+
+  "content_security_policy": "default-src 'self'"
 
 }
