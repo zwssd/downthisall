@@ -1,0 +1,135 @@
+/**
+*时间: 18-9-21
+*作者: zwssd <349705141@qq.com>
+*版权: GPL v2
+*/
+
+body {
+    font-size:80%;
+    color: #1a1a1a;
+    margin:auto;
+    padding:auto;
+}
+textarea {
+    font-family:monospace;
+}
+input,select,button {
+    margin:2px;
+}
+table {
+    align:left;
+    text-align:left;
+    color: #171717;
+}
+.fa {
+    font-size:90% !important;
+    vertical-align:middle;
+}
+.fa.clickable+.fa.clickable {
+    margin-left:.7em;
+}
+.fa+.fa {
+    margin-left:.3em;
+}
+body #action .fa.fa-info{
+    color: #d2000b !important;
+}
+body #action .fa.fa-plus-square {
+    color: #079921 !important;
+}
+body #action .fa.fa-info-circle,.fa.blue {
+    color: #0068b6 !important;
+}
+body #action .fa-heart,body .fa.red {
+    color: #e10078 !important;
+}
+body #action .fa-cog,body {
+    color: #510002 !important;
+}
+.actionregion {
+    min-width:180px;
+    width:100%;
+    margin:0;
+    padding:0;
+    white-space:nowrap;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.actiontable tr,.actionregion tr,.actionregion td {
+    padding:0;
+}
+table.actiontable {
+    width:100%;
+    margin:0;
+    padding:0;
+    white-space:nowrap;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+.actionlayout {
+    background-color: #f2f0c4;
+    padding-right:0;
+    border-spacing:0;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    width:100%;
+}
+.actionpostr {
+    vertical-align:top;
+}
+.actiontable td {
+    max-width:900px;
+}
+.actiontable tr {
+    vertical-align:middle;
+    height:2.2em;
+}
+.actiontable td:first-child {
+    text-align:center;
+    width:2.3em;
+}
+.actiontable td .fa {
+    min-width:2.3em;
+}
+.actiontable {
+    min-width:0;
+}
+.actiontable td:last-child {
+    padding-right:8px !important;
+}
+.actiontable tr {
+    max-width:900px;
+}
+.actiontable tr:hover {
+    background-color: #bcdabe;
+}
+.actiontable .script_name {
+    max-width:28em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.actionitem {
+    min-height:18px;
+    padding:3px 0 3px 3px;
+    margin:0;
+}
+.actionenabler {
+    display:block;
+    width:1em;
+    height:1em;
+}
+.actiontable {
+    vertical-align:middle;
+    background-color: #ffffff;
+}
+.actiontable {
+    border-style:solid;
+    border-color: #c1e0ee;
+    border-spacing:1px;
+    border-width:2px 0 0 0;
+}
+.clickable:hover,.tv_tab:hover,a:hover {
+    cursor:pointer;
+}
