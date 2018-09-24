@@ -18,6 +18,8 @@
   },
 
   "permissions": [
+    "storage",
+    "unlimitedStorage",
     "<all_urls>",
     "tabs",
     "downloads"

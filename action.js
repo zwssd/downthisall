@@ -4,6 +4,8 @@
  *版权: GPL v2
  */
 
+"use strict";
+
 var createActionsMenuItems = function () {
     var actionHtml = '';
     var items = [];
